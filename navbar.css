@@ -1,0 +1,14 @@
+.de:checked ~ a {
+  background: linear-gradient(to right, black, darkblue);
+  color: green;
+}
+
+.de:checked ~ ul li{
+  background:aqua;
+  color: aqua;
+}
+
+.de:checked ~ h1{
+  height: 50px;
+  width: 50px;
+}
